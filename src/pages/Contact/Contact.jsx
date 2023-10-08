@@ -1,21 +1,10 @@
+import Navbar from '../../components/Navbar/Navbar'
 import './Contact.css'
 
 const Contact = () => {
   return (
     <div>
-        <header>
-            <nav>
-                <div className="container">
-                    <h1><a href="index.html">Digital Pathshala</a></h1>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li className="current"><a href="contact.html">Contact</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <Navbar/>
 
         <section id="contact">
             <div className="container">
